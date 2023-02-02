@@ -4,7 +4,7 @@ Nigate，にがて，中译为“苦手”。这是一款支持苹果芯片的Fr
 
 ## 快速开始，三种方式，任选其一
 
-一、在线体验，复制粘贴到终端，回车起飞。
+一、在线体验，复制粘贴到 ***完全管理权限的终端*** 回车，一键起飞。
 
  ```shell
  /bin/bash -c "$(curl -fsSL https://cdn.statically.io/gh/hoochanlon/Free-NTFS-for-Mac/main/nigate.sh)"
@@ -21,13 +21,14 @@ curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/P
 ![ ](https://fastly.jsdelivr.net/gh/hoochanlon/free-mac-ntfs/shashin/example.png)
 
 
-关于读写之后的个性化操作，[点击翻阅 MOCHIAJI.md](MOCHIAJI.md)；以及实现原理，[点击详情 SEMMEISHO.md](helpdesk/SEMMEISHO.md)。
+关于读写之后的个性化操作，[点击翻阅 MOCHIAJI.md](MOCHIAJI.md)；以及实现原理，[点击详情 SEMMEISHO.md](helpdesk/SEMMEISHO.md)。拷贝50-60G的文件，注意不能休眠，使用`caffeinate`，让电脑处于常亮状态。
 
 
 ## 感谢支持与鼓励
 
 
 * [吾爱破解论坛的网友们](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1735607&page=1#pid45353784)
+* [微信公众号：APPERK](https://mp.weixin.qq.com/s/ByEBBCXFUmfBqF506F-Cvg)
 * [B站软件体验者：琛少君](https://space.bilibili.com/32713000)
 * [佛系软件](https://foxirj.com)
 * [ezntfs](https://github.com/lezgomatt/ezntfs/issues/8#issuecomment-1374428139)
