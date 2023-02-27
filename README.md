@@ -4,9 +4,8 @@ Nigate，にがて，中译为“苦手”。这是一款支持苹果芯片的Fr
 
 特别感谢：
 
-* [琛少君](https://space.bilibili.com/32713000)和[配主机网](https://www.peizhuji.com)，在有着众多不错界面的NTFS软件，还能对款脚本终端小工具热情支持。
-* [lezgomatt](https://github.com/lezgomatt)，虽然交流语言不通，但还是热心回答我的问题。
-* [APPERK](https://mp.weixin.qq.com/s/ByEBBCXFUmfBqF506F-Cvg)对小软件特别打包及上传，提升了下载与使用的便携与易用性。
+* [APPERK](https://fastly.jsdelivr.net/gh/hoochanlon/free-mac-ntfs/shashin/friend's_wx.jpg)，投入了大量时间与精力，梳理的代码逻辑，并对英特尔芯片兼容的特别工作，与图文并茂分解式说明，更易理解，也降低初期使用的前提知识储备 👉 [Mac NTFS 读写的白嫖方案](https://mp.weixin.qq.com/s/kHOsdXLXlFBardoSAsaXiA)。
+* [琛少君](https://space.bilibili.com/32713000)和[配主机网](https://www.peizhuji.com)，在有着众多不错界面的NTFS软件，还能对款脚本终端小工具热情支持；[lezgomatt](https://github.com/lezgomatt)，虽然交流语言不通，但还是热心回答我的问题。
 
 ## 快速开始，三种方式，任选其一
 
@@ -22,7 +21,9 @@ Nigate，にがて，中译为“苦手”。这是一款支持苹果芯片的Fr
 curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/Public/nigate.sh && sudo -S mkdir -p /usr/local/bin && cd /usr/local/bin && sudo ln -s ~/Public/nigate.sh nigate.shortcut && echo "alias nigate='bash nigate.shortcut'" >> ~/.zshrc && osascript -e 'tell application "Terminal" to do script "nigate"'
 ```
 
-三、下载使用 <a href="https://www.123pan.com/s/8dzUVv-qpH8d">Nigate 软件版（by APPERK 提取码: VT25）</a>
+三、下载使用 
+
+https://github.com/hoochanlon/Free-NTFS-for-Mac/releases/tag/v1.1 （更新 2023.2.24）
 
 ![ ](https://fastly.jsdelivr.net/gh/hoochanlon/free-mac-ntfs/shashin/example.png)
 
