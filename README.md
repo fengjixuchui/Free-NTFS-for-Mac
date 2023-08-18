@@ -1,11 +1,18 @@
 # Nigate
-
+<div align="center">
+ <a href="https://github.com/hoochanlon/Free-NTFS-for-Mac/blob/main/README_JP.md">日本語</a> | <a href="https://github.com/hoochanlon/Free-NTFS-for-Mac/blob/main/README.md">中文</a>
+</div>
+<br>
 Nigate，にがて，中译为“苦手”。这是一款支持苹果芯片的Free NTFS for Mac小工具软件，主要是为了方便想要免费使用NTFS格式移动存储的文件拷贝与共享的苹果电脑用户。<a href="https://www.bilibili.com/video/BV1XG4y1f79N">视频演示</a>。
+
+[![](https://i.im.ge/2023/06/26/01qebp.videos-fxxk-chxxa.png)](https://github.com/hoochanlon/Free-NTFS-for-Mac/assets/35732922/8f2d3ced-62cb-4c08-912e-909321b3f1db)
+
 
 特别感谢：
 
-* [APPERK](https://fastly.jsdelivr.net/gh/hoochanlon/free-mac-ntfs/shashin/friend's_wx.jpg)，投入了大量时间与精力，梳理的代码逻辑，并对英特尔芯片兼容的特别工作，与图文并茂分解式说明，更易理解，也降低初期使用的前提知识储备 👉 [Mac NTFS 读写的白嫖方案](https://mp.weixin.qq.com/s/kHOsdXLXlFBardoSAsaXiA)。
-* [琛少君](https://space.bilibili.com/32713000)和[配主机网](https://www.peizhuji.com)，在有着众多不错界面的NTFS软件，还能对款脚本终端小工具热情支持；[lezgomatt](https://github.com/lezgomatt)，虽然交流语言不通，但还是热心回答我的问题。
+* [APPERK](https://www.cnblogs.com/98record/p/mac-da-yin-ji-yi-jian-an-zhuang.html)，投入大量时间与精力，分解安装流程及兼容工作与特别打包。
+* [琛少君](https://space.bilibili.com/32713000)和[配主机网](https://www.peizhuji.com)，在有着众多不错界面的NTFS软件，还能对款脚本终端小工具热情支持
+* [lezgomatt](https://github.com/lezgomatt)，虽然交流语言不通，但还是热心回答我的问题。
 
 ## 快速开始，三种方式，任选其一
 
@@ -23,15 +30,21 @@ curl https://fastly.jsdelivr.net/gh/hoochanlon/Free-NTFS-for-Mac/nigate.sh > ~/P
 
 三、下载使用 
 
-https://github.com/hoochanlon/Free-NTFS-for-Mac/releases/tag/v1.1 （更新 2023.2.24）
+注意：U盘名称不支持空格与非法字符，见：https://github.com/osxfuse/osxfuse/issues/57#issuecomment-9367833
 
-![ ](https://fastly.jsdelivr.net/gh/hoochanlon/free-mac-ntfs/shashin/example.png)
+<!-- ![ ](https://fastly.jsdelivr.net/gh/hoochanlon/free-mac-ntfs/shashin/example.png) -->
+
+https://wwi.lanzoup.com/izuT50pxxn7c （[APPERK](https://fastly.jsdelivr.net/gh/hoochanlon/free-mac-ntfs/shashin/friend's_wx.jpg)特别打包版）
 
 ### 其他补充
 
 打开软件[弹窗“文件已损坏，扔入废纸篓”，需解除苹果对软件的门禁限制](https://github.com/hoochanlon/Free-NTFS-for-Mac/issues/9#issue-1527116834)。拷贝几十百来G的资料，需注意让Mac处于激活的常亮状态，可在终端输入指令`caffeinate`。
 
 关于读写之后的个性化操作，[点击翻阅：MOCHIAJI.md](MOCHIAJI.md)；以及实现原理，[点击详情：SEMMEISHO.md](helpdesk/SEMMEISHO.md)；软件收集与逆向学习研究，[点击我的收录单：软件分享及网页备份](https://github.com/hoochanlon/w3-goto-world/blob/master/软件分享及网页备份/README.md)![](https://img.shields.io/github/stars/hoochanlon/w3-goto-world?color=green&style=social)。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=hoochanlon/Free-NTFS-for-Mac&type=Date)](https://star-history.com/#hoochanlon/Free-NTFS-for-Mac&Date)
 
 
 ## 感谢
